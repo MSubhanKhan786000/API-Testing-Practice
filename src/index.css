@@ -1,13 +1,31 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+button {
+  color: #fff;
+  background-color: #d32f2f; /* A red shade for a delete action */
+  border: none; /* Removes default border */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-size: 16px; /* Ensures readability */
+  font-weight: bold; /* Makes text bold */
+  padding: 10px 20px; /* Adds padding for better size */
+  cursor: pointer; /* Shows a pointer on hover */
 }
